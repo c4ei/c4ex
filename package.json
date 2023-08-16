@@ -7,7 +7,7 @@
         "installs": "concurrently \"yarn install && yarn build\" \"cd backend && yarn install\"",
         "dev": "next dev",
         "build": "next build",
-        "start": "next start -p 81",
+        "start": "next start -p 3000",
         "lint": "next lint",
         "prettier": "prettier --write",
         "server-install": "yarn install --prefix backend"

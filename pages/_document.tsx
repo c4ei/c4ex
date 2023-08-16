@@ -3,6 +3,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />        
         <link rel="stylesheet" href="/style/bootstrap.min.css" />
         <link rel="stylesheet" href="/style/meanmenu.min.css" />
         <link rel="stylesheet" href="/style/metisMenu.min.css" />
